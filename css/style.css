@@ -208,6 +208,7 @@ a{
 .form-label{
     display: block;
     color: #019934;
+    font-weight: bold;
 }
 
 .form-control{
@@ -225,7 +226,7 @@ a{
 }
 
 .oferta1{
-    text-align:left;
+    text-align:center;
     margin-top: 30px;
 }
 
