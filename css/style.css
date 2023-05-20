@@ -271,60 +271,57 @@ a{
 
 .carrito8{
     display: grid;
-    width: 100vh;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 450px;
-    gap: 30px;
-    grid-template-columns: repeat(7, 3fr);
-    grid-template-rows: repeat(9, 2fr);
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 20px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(3, 200px);
     grid-template-areas: 
-    "fotoal fotoal fotoal fotoal fotoal almacen almacen"
-    "fotoal fotoal fotoal fotoal fotoal almacen almacen"
-    "fotoal fotoal fotoal fotoal fotoal almacen almacen"
-    "frutas frutas fotofru fotofru fotofru fotofru fotofru"
-    "frutas frutas fotofru fotofru fotofru fotofru fotofru"
-    "frutas frutas fotofru fotofru fotofru fotofru fotofru"
-    "fotopan fotopan fotopan fotopan fotopan pana pana"
-    "fotopan fotopan fotopan fotopan fotopan pana pana"
-    "fotopan fotopan fotopan fotopan fotopan pana pana"
+    "fotoal almacen"
+    "frutas fotofru"
+    "fotopan pana"
     ;
+    justify-content: center;
+    align-items: center;
 }
 
 .carrito9{
     grid-area: fotoal;
+    object-fit: cover;
 }
 
 .carrito10{
     grid-area: almacen;
-    color: #019934;
+    color: #FC6703;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     align-self: center;
 }
 
 .carrito11{
     grid-area: frutas;
-    color: #019934;
+    color:#FC6703 ;
     font-size: 20px;
-    text-align: right;
+    text-align: center;
     align-self: center;
 }
 
 .carrito12{
     grid-area: fotofru;
+    object-fit: cover;
 }
 
 .carrito13{
     grid-area: fotopan;
+    object-fit: cover;
 }
 
 .carrito14{
     grid-area: pana;
-    color: #019934;
+    color: #FC6703;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
     align-self: center;
 }
