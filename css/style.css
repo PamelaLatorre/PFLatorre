@@ -172,8 +172,9 @@ a{
 }
 
 .carrito3{
-    text-align: right;
-    margin-right: 65px;
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 10px;
 }
 
 .carrito4{
@@ -181,14 +182,27 @@ a{
     justify-content: center;
 }
 
-.carrito5{
-    align-self: center;
-}   
+.carritoo{
+    background-color: #019934;    
+}
 
 .carrito6{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.carritoo6{
+    font-size: 15px;
+}
+
+.carrito7{
+    color: #019934;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -216,7 +230,8 @@ a{
 }
 
 .mb-4{
-    margin-left: 200px;
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
     margin-bottom: 60px;
 }
