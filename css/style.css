@@ -5,7 +5,7 @@ body{
 
 header{
     background-color: #FC6703; color: white; 
-    padding: 10px;
+    padding: 25px;
 }
 
 footer{
@@ -16,6 +16,17 @@ footer{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .a1:hover{
@@ -169,6 +180,10 @@ a{
     margin-left: 60px;
     text-align: justify;
     margin-right: 60px;
+}
+
+.form-control{
+    width: 650px;
 }
 
 .carrito3{
