@@ -470,6 +470,19 @@ a{
     .contenedor6{
         margin-right: 0px;
     }
+
+    .titulo2{
+        font-size: 15px;
+    }
+
+    .nosotros1{
+        font-size: 80%;
+    }
+
+    .nosotros2{
+        font-size: 80%;
+    }
+    
 }
 
 @media (max-width:456px){
@@ -489,9 +502,15 @@ a{
         max-height: 75px;
         margin-right: 10px;
     }
+
     .img3{
         max-width: 150px;
         max-height: 75px;
+    }
+
+    .primer{
+        max-width: 220px;
+        max-height: 130px;
     }
 
     .contenedor4{
@@ -513,5 +532,14 @@ a{
     .contenedor7{
         font-size: 13px;
     }
+}
 
+@media (max-width:406px){
+    .nosotros1{
+        font-size: 70%;
+    }
+
+    .nosotros2{
+        font-size: 70%;
+    }
 }
