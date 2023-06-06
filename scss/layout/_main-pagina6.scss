@@ -1,0 +1,66 @@
+.carrito7{
+    @extend .titulo2;
+}
+
+.carrito8{
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 20px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "fotoal almacen"
+    "frutas fotofru"
+    "fotopan pana"
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito9{
+    grid-area: fotoal;
+    object-fit: cover;
+}
+
+.carrito10{
+    grid-area: almacen;
+    color: #FC6703;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    &:hover{
+        transform: scale(1.2);}
+}
+
+.carrito11{
+    grid-area: frutas;
+    color:#FC6703 ;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    &:hover{
+        transform: scale(1.2);}
+}
+
+.carrito12{
+    grid-area: fotofru;
+    object-fit: cover;
+}
+
+.carrito13{
+    grid-area: fotopan;
+    object-fit: cover;
+}
+
+.carrito14{
+    grid-area: pana;
+    color: #FC6703;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    &:hover{
+        transform: scale(1.2);}
+}

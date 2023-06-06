@@ -1,0 +1,57 @@
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .logo1{
+        margin-right: 50px;
+        &:hover{
+            transform: scale(1.1);}
+}}
+    
+.contenedor2{
+        align-self: center;
+        text-align: center;
+        line-height: 5px;
+        .titulo{
+            font-size: 20px;}
+            .p1{
+                color: $color-secundario;}
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    img{
+        margin-left: 20px;
+        &:hover{
+            transform: scale(0.9);
+        }
+    }
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    position:relative;
+}
+
+.contenedor5{
+    align-self: center;
+    text-align: center;
+    line-height: 5px;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.contenedorr5{
+    display: none;
+}
+
+.img4{
+    position: absolute;
+    top: 50px;
+}

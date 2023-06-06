@@ -1,0 +1,88 @@
+@media (max-width:456px){
+
+    nav{
+        font-size: 13px;
+    }
+
+    .contenedor3{
+        img{
+        max-width: 150px;
+        max-height: 75px;
+        margin-right: 10px;}
+    }
+
+    .primer{
+        max-width: 220px;
+        max-height: 130px;
+    }
+
+    .contenedor4{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .img4{
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    
+    .seguinos{
+        font-size: 13px;
+    }
+
+    .contenedor7{
+        font-size: 13px;
+    }
+
+    .carrito8{
+        grid-template-columns: 100px 100px;
+        grid-template-rows: repeat(3, 75px);
+        grid-template-areas: 
+        "fotoal almacen"
+        "frutas fotofru"
+        "fotopan pana"
+        ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrito9{
+        max-width: 100px;
+        max-height: 60px;
+    }
+
+    .carrito12{
+        max-width: 100px;
+        max-height: 60px;
+    }
+
+    .carrito13{
+        max-width: 100px;
+        max-height: 60px;
+    }
+    
+    .form-control{
+        max-width: 300px;
+        margin-left: 10px;
+    }
+
+    .carrito6{
+        gap: 30px;
+    }
+
+    .contenedor5{
+        display: none;
+    }
+    
+    .contenedorr5{
+        display: block;
+        align-self: center;
+        text-align: center;
+        line-height: 5px;
+        font-size: 10px;
+        margin-right: 50px;
+    }
+
+}

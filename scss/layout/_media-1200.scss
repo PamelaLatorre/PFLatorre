@@ -1,0 +1,28 @@
+@media (max-width:1200px){
+    .carrito8{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: repeat(3, 150px);
+        grid-template-areas: 
+        "fotoal almacen"
+        "frutas fotofru"
+        "fotopan pana"
+    ;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .carrito9{
+        max-width: 300px;
+        max-height: 150px;
+    }
+
+    .carrito12{
+        max-width: 300px;
+        max-height: 150px;
+    }
+
+    .carrito13{
+        max-width: 300px;
+        max-height: 150px;
+    }
+}

@@ -1,0 +1,42 @@
+.titulo3{
+    @extend .titulo2;
+}
+
+.carrito1{
+    font-size: 15px;
+    margin-left: 125px;
+    color: $color-secundario;
+}
+
+.carrito2{
+    margin-left: 60px;
+    text-align: justify;
+    margin-right: 60px;
+}
+
+.carrito3{
+    text-align: justify;
+    margin-left: 125px;
+    font-size: 10px;
+}
+
+.carrito4{
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        background-color: $color-secundario;
+        color: white;
+        border: 5px solid $color-secundario;}       
+}
+
+.carrito6{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 40px;
+    p{
+        font-size: 15px;
+    }
+}

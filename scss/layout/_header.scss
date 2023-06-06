@@ -1,0 +1,19 @@
+header{
+    background-color: $color-principal;  
+    color: white;
+    padding: 25px;}
+    
+nav{
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type:none;
+        margin: 0;}
+    a{
+        text-decoration: none;
+        color: white;}
+        a:hover{
+            background-color: $color-secundario;
+            color: white;
+            padding: 25px;}
+    }

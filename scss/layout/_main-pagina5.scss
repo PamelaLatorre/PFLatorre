@@ -1,0 +1,16 @@
+.oferta1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    img{
+        text-align: center;
+        &:hover{
+            transform: scale(1.1);}
+    }
+}
+
+.oferta2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}

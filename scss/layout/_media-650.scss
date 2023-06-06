@@ -1,0 +1,101 @@
+@media (max-width:650px){
+
+    nav{
+        font-size: 15px;
+    }
+
+    .logo1{
+        margin-top: 20px;
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .contenedor1{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .titulo{
+        font-size: 15px;
+    }
+
+    .contenedor2{
+        margin-top: -20px;
+    }
+
+    .contenedor5{
+        font-size: 10px;
+    }
+
+    .ofer1{
+        max-width: 130px;
+        max-height: 80px;
+    }
+
+    .footer{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .seguinos{
+        font-size: 15px;
+    }
+
+    .contenedor7{
+        font-size: 15px;
+    }
+
+    .contenedor6{
+        margin-right: 0px;
+    }
+
+    .titulo2{
+        font-size: 15px;
+    }
+
+    .nosotros1{
+        font-size: 80%;
+    }
+
+    .nosotros2{
+        font-size: 80%;
+    }
+    
+    .titulo3{
+        font-size: 15px;
+    }
+
+    .ayuda1{
+        font-size: 15px;
+    }
+
+    .carrito7{
+        font-size: 15px;
+    }
+
+    .carrito10{
+        font-size: 15px;
+    }
+
+    .carrito11{
+        font-size: 15px;
+    }
+
+    .carrito14{
+        font-size: 15px;
+    }
+
+    .oferta2{
+        font-size: 80%;
+    }
+    
+    .form-control{
+        max-width: 370px;
+        margin-left: 10px;
+    }
+
+}
