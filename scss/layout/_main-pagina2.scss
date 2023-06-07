@@ -9,7 +9,9 @@
 .nosotros1{
     text-align: center;
     p{
-        line-height: 25px;
+        line-height: 35px;
+        em {
+            color: $color-secundario}
     }
 }
 
@@ -26,9 +28,11 @@
     margin-bottom: 55px;
     margin-top: 40px;
     p{
-        line-height: 30px;
+        line-height: 35px;
         margin-top: 20px;
         strong {
+            color: $color-secundario}
+        em {
             color: $color-secundario}
     }
 }

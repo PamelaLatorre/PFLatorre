@@ -30,6 +30,9 @@
 
     .contenedor2{
         margin-top: -20px;
+        p{
+            margin-top: 13px;
+        }
     }
 
     .contenedor5{
@@ -47,54 +50,14 @@
         text-align: center;
     }
 
-    .contenedor6{
+    .contenedor6, .contenedor7, .titulo2, .titulo3, .ayuda1, .carrito7, .carrito10, .carrito11, .carrito14{
         font-size: 15px;
     }
 
-    .contenedor7{
-        font-size: 15px;
-    }
-
-    .titulo2{
-        font-size: 15px;
-    }
-
-    .nosotros1{
+    .nosotros1, .nosotros2, .oferta2{
         font-size: 80%;
     }
 
-    .nosotros2{
-        font-size: 80%;
-    }
-    
-    .titulo3{
-        font-size: 15px;
-    }
-
-    .ayuda1{
-        font-size: 15px;
-    }
-
-    .carrito7{
-        font-size: 15px;
-    }
-
-    .carrito10{
-        font-size: 15px;
-    }
-
-    .carrito11{
-        font-size: 15px;
-    }
-
-    .carrito14{
-        font-size: 15px;
-    }
-
-    .oferta2{
-        font-size: 80%;
-    }
-    
     .form-control{
         max-width: 370px;
         margin-left: 10px;

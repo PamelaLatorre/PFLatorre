@@ -27,16 +27,12 @@
             right: 0px;}
     }
     
-    .contenedor6{
-        font-size: 13px;
-    }
-
-    .contenedor7{
+    .contenedor6, .contenedor7{
         font-size: 13px;
     }
 
     .carrito8{
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 120px 120px;
         grid-template-rows: repeat(3, 75px);
         grid-template-areas: 
         "fotoal almacen"
@@ -47,21 +43,11 @@
         align-items: center;
     }
 
-    .carrito9{
-        max-width: 100px;
+    .carrito9, .carrito12, .carrito13{
+        max-width: 120px;
         max-height: 60px;
     }
 
-    .carrito12{
-        max-width: 100px;
-        max-height: 60px;
-    }
-
-    .carrito13{
-        max-width: 100px;
-        max-height: 60px;
-    }
-    
     .form-control{
         max-width: 300px;
         margin-left: 10px;

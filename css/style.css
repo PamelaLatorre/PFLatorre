@@ -63,6 +63,8 @@ nav a:hover {
     position: relative;
     top: 65px;
     right: 40px; }
+    .contenedor4 .img4:hover {
+      background-color: none; }
 
 .contenedor5 {
   align-self: center;
@@ -84,7 +86,9 @@ nav a:hover {
 .nosotros1 {
   text-align: center; }
   .nosotros1 p {
-    line-height: 25px; }
+    line-height: 35px; }
+    .nosotros1 p em {
+      color: #019934; }
 
 .img5 {
   display: block;
@@ -98,20 +102,20 @@ nav a:hover {
   margin-bottom: 55px;
   margin-top: 40px; }
   .nosotros2 p {
-    line-height: 30px;
+    line-height: 35px;
     margin-top: 20px; }
     .nosotros2 p strong {
+      color: #019934; }
+    .nosotros2 p em {
       color: #019934; }
 
 .carrito1 {
   font-size: 15px;
-  margin-left: 125px;
-  color: #019934; }
+  margin-left: 125px; }
 
 .carrito2 {
-  margin-left: 60px;
-  text-align: justify;
-  margin-right: 60px; }
+  margin: 15px 60px 15px 60px;
+  text-align: justify; }
 
 .carrito3 {
   text-align: justify;
@@ -152,7 +156,10 @@ nav a:hover {
 .oferta2 {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  line-height: 35px; }
+  .oferta2 em {
+    color: #019934; }
 
 .carrito8 {
   display: grid;
@@ -203,6 +210,23 @@ nav a:hover {
   .carrito14:hover {
     transform: scale(1.2); }
 
+.footer {
+  background-color: #FC6703;
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+  .footer .contenedor6 {
+    line-height: 5px;
+    margin-bottom: 15px;
+    margin-top: 12px; }
+    .footer .contenedor6 p {
+      text-align: center; }
+  .footer .contenedor7 {
+    text-align: center;
+    line-height: 5px;
+    margin-bottom: 15px;
+    margin-top: 12px; }
+
 @media (max-width: 1200px) {
   .carrito8 {
     grid-template-columns: 300px 300px;
@@ -230,39 +254,36 @@ nav a:hover {
 
 @media (max-width: 1013px) {
   img {
-    max-width: 250px;
-    margin-right: 10px; } }
+    max-width: 250px; } }
 
 @media (max-width: 900px) {
-  img {
-    max-width: 250px;
-    margin-right: 10px; }
+  .carrito1 {
+    margin-left: 75px; }
   .carrito8 {
     grid-template-columns: 150px 150px;
     grid-template-rows: repeat(3, 85px);
     grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
     justify-content: center;
     align-items: center; }
-  .carrito9 {
+  .carrito9, .carrito12, .carrito13 {
     max-width: 150px;
     max-height: 60px; }
-  .carrito12 {
-    max-width: 150px;
-    max-height: 60px; }
-  .carrito13 {
-    max-width: 150px;
-    max-height: 60px; } }
+  .carrito10, .carrito11, .carrito14 {
+    font-size: 13px; } }
 
 @media (max-width: 850px) {
+  .logo1 {
+    transform: scale(1.1);
+    animation-duration: 5s; }
   .contenedor3 {
     display: flexbox;
     flex-direction: column;
     align-items: center;
     gap: 20px; }
-  .contenedor3 img {
-    max-width: 200px;
-    max-height: 100px;
-    margin-right: 10px; }
+    .contenedor3 img {
+      max-width: 200px;
+      max-height: 100px;
+      margin-right: 10px; }
   .form-control {
     max-width: 500px;
     margin-left: 10px; } }
@@ -273,9 +294,8 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     gap: 20px; }
-  a:hover {
-    background-color: #019934;
-    padding: 8px; } }
+    ul a:hover {
+      padding: 7px; } }
 
 @media (max-width: 650px) {
   ul a:hover {
@@ -300,6 +320,8 @@ nav a:hover {
         margin-bottom: 2px; }
   .contenedor2 {
     margin-top: -20px; }
+    .contenedor2 p {
+      margin-top: 13px; }
   .contenedor5 {
     font-size: 10px; }
   .ofer1 {
@@ -309,29 +331,9 @@ nav a:hover {
     display: flexbox;
     flex-direction: column;
     text-align: center; }
-  .contenedor6 {
+  .contenedor6, .contenedor7, .titulo2, .titulo3, .ayuda1, .carrito7, .titulo3, .ayuda1, .carrito7, .carrito10, .carrito11, .carrito14 {
     font-size: 15px; }
-  .contenedor7 {
-    font-size: 15px; }
-  .titulo2, .titulo3, .ayuda1, .carrito7 {
-    font-size: 15px; }
-  .nosotros1 {
-    font-size: 80%; }
-  .nosotros2 {
-    font-size: 80%; }
-  .titulo3 {
-    font-size: 15px; }
-  .ayuda1 {
-    font-size: 15px; }
-  .carrito7 {
-    font-size: 15px; }
-  .carrito10 {
-    font-size: 15px; }
-  .carrito11 {
-    font-size: 15px; }
-  .carrito14 {
-    font-size: 15px; }
-  .oferta2 {
+  .nosotros1, .nosotros2, .oferta2 {
     font-size: 80%; }
   .form-control {
     max-width: 370px;
@@ -356,24 +358,16 @@ nav a:hover {
       left: 50px;
       top: 0px;
       right: 0px; }
-  .contenedor6 {
-    font-size: 13px; }
-  .contenedor7 {
+  .contenedor6, .contenedor7 {
     font-size: 13px; }
   .carrito8 {
-    grid-template-columns: 100px 100px;
+    grid-template-columns: 120px 120px;
     grid-template-rows: repeat(3, 75px);
     grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
     justify-content: center;
     align-items: center; }
-  .carrito9 {
-    max-width: 100px;
-    max-height: 60px; }
-  .carrito12 {
-    max-width: 100px;
-    max-height: 60px; }
-  .carrito13 {
-    max-width: 100px;
+  .carrito9, .carrito12, .carrito13 {
+    max-width: 120px;
     max-height: 60px; }
   .form-control {
     max-width: 300px;
@@ -391,29 +385,8 @@ nav a:hover {
     margin-right: 50px; } }
 
 @media (max-width: 406px) {
-  .nosotros1 {
-    font-size: 70%; }
-  .nosotros2 {
-    font-size: 70%; }
-  .oferta2 {
+  .nosotros1, .nosotros2, .oferta2 {
     font-size: 70%; }
   .form-control {
     max-width: 210px;
     margin-left: 10px; } }
-
-.footer {
-  background-color: #FC6703;
-  color: white;
-  display: flex;
-  justify-content: space-around; }
-  .footer .contenedor6 {
-    line-height: 5px;
-    margin-bottom: 15px;
-    margin-top: 12px; }
-    .footer .contenedor6 p {
-      text-align: center; }
-  .footer .contenedor7 {
-    text-align: center;
-    line-height: 5px;
-    margin-bottom: 15px;
-    margin-top: 12px; }

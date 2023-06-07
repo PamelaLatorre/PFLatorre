@@ -39,7 +39,10 @@
     .img4{
         position: relative;
         top: 65px;
-        right:40px}
+        right:40px;
+        &:hover{
+            background-color: none;}
+        }
 }
 
 .contenedor5{

@@ -1,10 +1,9 @@
 @media (max-width:900px){
 
-    img{
-        max-width: 250px;
-        margin-right: 10px;
+    .carrito1{
+        margin-left: 75px;
     }
-
+    
     .carrito8{
         grid-template-columns: 150px 150px;
         grid-template-rows: repeat(3, 85px);
@@ -17,18 +16,12 @@
         align-items: center;
     }
 
-    .carrito9{
+    .carrito9, .carrito12, .carrito13{
         max-width: 150px;
         max-height: 60px;
     }
 
-    .carrito12{
-        max-width: 150px;
-        max-height: 60px;
-    }
-
-    .carrito13{
-        max-width: 150px;
-        max-height: 60px;
+    .carrito10, .carrito11, .carrito14{
+        font-size: 13px;
     }
 }
