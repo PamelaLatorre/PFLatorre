@@ -9,21 +9,23 @@
         font-size: 15px;
     }
 
-    .logo1{
-        margin-top: 20px;
-        max-width: 150px;
-        max-height: 150px;
-    }
-
     .contenedor1{
         display: flexbox;
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
-    }
-
-    .titulo{
-        font-size: 15px;
+        margin-right: 0px;
+        .logo1{
+            margin-top: 20px;
+            margin-right: 0px;
+            max-width: 135px;
+            max-height: 135px;}
+            .titulo{
+                font-size: 13px;
+                p{
+                    margin-top: 13px;
+                    margin-bottom: 2px;}
+                }  
     }
 
     .contenedor2{

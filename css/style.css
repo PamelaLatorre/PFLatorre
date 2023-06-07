@@ -83,6 +83,8 @@ nav a:hover {
 
 .nosotros1 {
   text-align: center; }
+  .nosotros1 p {
+    line-height: 25px; }
 
 .img5 {
   display: block;
@@ -95,12 +97,11 @@ nav a:hover {
   text-align: center;
   margin-bottom: 55px;
   margin-top: 40px; }
-
-.nosotros3 {
-  color: #019934; }
-
-.nosotros4, .nosotros5, .nosotros6 {
-  margin-top: 40px; }
+  .nosotros2 p {
+    line-height: 30px;
+    margin-top: 20px; }
+    .nosotros2 p strong {
+      color: #019934; }
 
 .carrito1 {
   font-size: 15px;
@@ -281,17 +282,22 @@ nav a:hover {
     padding: 7px; }
   nav {
     font-size: 15px; }
-  .logo1 {
-    margin-top: 20px;
-    max-width: 150px;
-    max-height: 150px; }
   .contenedor1 {
     display: flexbox;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px; }
-  .titulo {
-    font-size: 15px; }
+    margin-bottom: 20px;
+    margin-right: 0px; }
+    .contenedor1 .logo1 {
+      margin-top: 20px;
+      margin-right: 0px;
+      max-width: 135px;
+      max-height: 135px; }
+    .contenedor1 .titulo {
+      font-size: 13px; }
+      .contenedor1 .titulo p {
+        margin-top: 13px;
+        margin-bottom: 2px; }
   .contenedor2 {
     margin-top: -20px; }
   .contenedor5 {
@@ -388,8 +394,6 @@ nav a:hover {
   .nosotros1 {
     font-size: 70%; }
   .nosotros2 {
-    font-size: 70%; }
-  .nosotros1 {
     font-size: 70%; }
   .oferta2 {
     font-size: 70%; }
