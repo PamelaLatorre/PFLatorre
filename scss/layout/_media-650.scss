@@ -1,5 +1,10 @@
 @media (max-width:650px){
 
+    ul{
+        a:hover{
+            padding: 7px;}
+}
+
     nav{
         font-size: 15px;
     }
@@ -37,20 +42,15 @@
     .footer{
         display: flexbox;
         flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        text-align: center;
     }
 
-    .seguinos{
+    .contenedor6{
         font-size: 15px;
     }
 
     .contenedor7{
         font-size: 15px;
-    }
-
-    .contenedor6{
-        margin-right: 0px;
     }
 
     .titulo2{

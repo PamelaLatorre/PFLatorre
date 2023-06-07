@@ -58,8 +58,11 @@ nav a:hover {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 40px;
-  position: relative; }
+  margin-bottom: 40px; }
+  .contenedor4 .img4 {
+    position: relative;
+    top: 65px;
+    right: 40px; }
 
 .contenedor5 {
   align-self: center;
@@ -70,10 +73,6 @@ nav a:hover {
 
 .contenedorr5 {
   display: none; }
-
-.img4 {
-  position: absolute;
-  top: 50px; }
 
 .titulo2, .titulo3, .ayuda1, .carrito7 {
   color: #019934;
@@ -156,16 +155,13 @@ nav a:hover {
 
 .carrito8 {
   display: grid;
-  margin-top: 50px;
-  margin-bottom: 60px;
-  margin-left: 60px;
-  margin-right: 60px;
-  gap: 20px;
   grid-template-columns: 500px 500px;
   grid-template-rows: repeat(3, 200px);
-  grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
+  gap: 20px;
+  grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 50px 60px 80px 60px; }
 
 .carrito9 {
   grid-area: fotoal;
@@ -278,9 +274,11 @@ nav a:hover {
     gap: 20px; }
   a:hover {
     background-color: #019934;
-    padding: 10px; } }
+    padding: 8px; } }
 
 @media (max-width: 650px) {
+  ul a:hover {
+    padding: 7px; }
   nav {
     font-size: 15px; }
   .logo1 {
@@ -304,14 +302,11 @@ nav a:hover {
   .footer {
     display: flexbox;
     flex-direction: column;
-    align-items: center;
-    gap: 20px; }
-  .seguinos {
+    text-align: center; }
+  .contenedor6 {
     font-size: 15px; }
   .contenedor7 {
     font-size: 15px; }
-  .contenedor6 {
-    margin-right: 0px; }
   .titulo2, .titulo3, .ayuda1, .carrito7 {
     font-size: 15px; }
   .nosotros1 {
@@ -351,9 +346,10 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px; }
-  .img4 {
-    margin-left: 50px;
-    margin-top: -50px; }
+    .contenedor4 .img4 {
+      left: 50px;
+      top: 0px;
+      right: 0px; }
   .seguinos {
     font-size: 13px; }
   .contenedor7 {
@@ -405,9 +401,8 @@ nav a:hover {
   background-color: #FC6703;
   color: white;
   display: flex;
-  justify-content: center; }
+  justify-content: space-around; }
   .footer .contenedor6 {
-    margin-right: 200px;
     line-height: 5px;
     margin-bottom: 15px;
     margin-top: 12px; }

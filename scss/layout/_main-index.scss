@@ -36,7 +36,10 @@
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 40px;
-    position:relative;
+    .img4{
+        position: relative;
+        top: 65px;
+        right:40px}
 }
 
 .contenedor5{
@@ -49,9 +52,4 @@
 
 .contenedorr5{
     display: none;
-}
-
-.img4{
-    position: absolute;
-    top: 50px;
 }

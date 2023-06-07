@@ -3,22 +3,8 @@
 }
 
 .carrito8{
-    display: grid;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    margin-left: 60px;
-    margin-right: 60px;
-    gap: 20px;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: repeat(3, 200px);
-    grid-template-areas: 
-    "fotoal almacen"
-    "frutas fotofru"
-    "fotopan pana"
-    ;
-    justify-content: center;
-    align-items: center;
-}
+    @include grid(500px 500px,repeat(3, 200px),20px,"fotoal almacen""frutas fotofru""fotopan pana",center,center,50px 60px 80px 60px)
+}   
 
 .carrito9{
     grid-area: fotoal;
