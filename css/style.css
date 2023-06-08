@@ -272,9 +272,6 @@ nav a:hover {
     font-size: 13px; } }
 
 @media (max-width: 850px) {
-  .logo1 {
-    transform: scale(1.1);
-    animation-duration: 5s; }
   .contenedor3 {
     display: flexbox;
     flex-direction: column;
@@ -316,7 +313,7 @@ nav a:hover {
     .contenedor1 .titulo {
       font-size: 13px; }
       .contenedor1 .titulo p {
-        margin-top: 13px;
+        margin-top: 23px;
         margin-bottom: 2px; }
   .contenedor2 {
     margin-top: -20px; }
