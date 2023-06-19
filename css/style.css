@@ -311,6 +311,8 @@ nav a:hover {
       margin-right: 0px;
       max-width: 135px;
       max-height: 135px; }
+    .contenedor1:hover {
+      transform: scale(0.9); }
     .contenedor1 .titulo {
       font-size: 13px; }
       .contenedor1 .titulo p {
