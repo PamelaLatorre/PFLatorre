@@ -25,7 +25,8 @@ nav a {
 nav a:hover {
   background-color: #019934;
   color: white;
-  padding: 25px; }
+  padding-top: 25px; 
+  padding-bottom: 25px;}
 
 .contenedor1 {
   display: flex;
@@ -229,10 +230,21 @@ nav a:hover {
     margin-top: 12px; }
 
 @media (max-width: 1200px) {
+  .contenedor3 {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; }
+    .contenedor3 img {
+      max-width: 430px;
+      max-height: 250px;
+      margin-right: 10px; }
   .carrito8 {
     grid-template-columns: 300px 300px;
     grid-template-rows: repeat(3, 150px);
-    grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
+    grid-template-areas: "fotoal almacen"
+ "frutas fotofru"
+ "fotopan pana";
     justify-content: center;
     align-items: center; }
   .carrito9 {
@@ -255,7 +267,7 @@ nav a:hover {
 
 @media (max-width: 1013px) {
   img {
-    max-width: 250px; } }
+    max-width: 350px; } }
 
 @media (max-width: 900px) {
   .carrito1 {
@@ -263,7 +275,9 @@ nav a:hover {
   .carrito8 {
     grid-template-columns: 180px 180px;
     grid-template-rows: repeat(3, 85px);
-    grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
+    grid-template-areas: "fotoal almacen"
+ "frutas fotofru"
+ "fotopan pana";
     justify-content: center;
     align-items: center; }
   .carrito9, .carrito12, .carrito13 {
@@ -273,15 +287,6 @@ nav a:hover {
     font-size: 13px; } }
 
 @media (max-width: 850px) {
-  .contenedor3 {
-    display: flexbox;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px; }
-    .contenedor3 img {
-      max-width: 200px;
-      max-height: 100px;
-      margin-right: 10px; }
   .form-control {
     max-width: 500px;
     margin-left: 10px; } }
@@ -343,8 +348,8 @@ nav a:hover {
   nav {
     font-size: 13px; }
   .contenedor3 img {
-    max-width: 150px;
-    max-height: 75px;
+    max-width: 250px;
+    max-height: 125px;
     margin-right: 10px; }
   .primer {
     max-width: 220px;
@@ -363,7 +368,9 @@ nav a:hover {
   .carrito8 {
     grid-template-columns: 120px 120px;
     grid-template-rows: repeat(3, 75px);
-    grid-template-areas: "fotoal almacen" "frutas fotofru" "fotopan pana";
+    grid-template-areas: "fotoal almacen"
+ "frutas fotofru"
+ "fotopan pana";
     justify-content: center;
     align-items: center; }
   .carrito9, .carrito12, .carrito13 {
